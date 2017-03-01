@@ -51,4 +51,10 @@
         app:srcCompat="@mipmap/ic_launcher"
         android:id="@+id/imageView" />
 
+    <TextView
+        android:text="Punya Hilmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
 </LinearLayout>
