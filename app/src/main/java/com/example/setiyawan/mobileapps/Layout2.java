@@ -12,6 +12,6 @@ public class Layout2 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout2);
-        //perubahan 
+        //perubahan
     }
 }
