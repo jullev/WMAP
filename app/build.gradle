@@ -1,8 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
+=======
+    compileSdkVersion 24
+    buildToolsVersion "25.0.2"
+>>>>>>> 1cfa0c3d089e0ccdba34d862cb9d563732cdbf68
     defaultConfig {
         applicationId "com.example.setiyawan.mobileapps"
         minSdkVersion 15
