@@ -17,10 +17,9 @@ public class Layout2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout2);
         //perubahan
-<<<<<<< HEAD
-=======
+
         btn = (Button) findViewById(R.id.button);
-        edTest = (EditText) findViewById(R.id.textView2);
->>>>>>> 1cfa0c3d089e0ccdba34d862cb9d563732cdbf68
+        edTest = (EditText) findViewById(R.id.editText2);
+
     }
 }
