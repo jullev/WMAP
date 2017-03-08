@@ -22,7 +22,15 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editText"
-        android:hint="Masukan" />
+        android:hint="Username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="Password" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -31,14 +39,14 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:text="Button"
+            android:text="Submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button5"
             android:layout_weight="1" />
 
         <Button
-            android:text="Button"
+            android:text="Clear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button4"
