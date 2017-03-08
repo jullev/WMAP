@@ -22,6 +22,7 @@ public class Layout2 extends Activity {
         String shared = getSharedPreferences("CacheApp",MODE_PRIVATE).getString("pref","a").toString();
         Toast.makeText(Layout2.this,"Share : "+shared,Toast.LENGTH_LONG).show();
         //perubahan
+
         btn = (Button) findViewById(R.id.button);
         edTest = (EditText) findViewById(R.id.editText2);
         edTest.setText(shared);
