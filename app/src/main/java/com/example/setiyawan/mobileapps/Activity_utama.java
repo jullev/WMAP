@@ -2,9 +2,8 @@ package com.example.setiyawan.mobileapps;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,15 +21,17 @@ public class Activity_utama extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_utama);
+
         btn1 = (Button) findViewById(R.id.button5);
         btn2 = (Button) findViewById(R.id.button4);
         edit1 = (EditText) findViewById(R.id.editText);
         password = (EditText) findViewById(R.id.editText3);
         txtHilmi = (TextView) findViewById(R.id.textView2);
+
         String shared = getSharedPreferences("CacheApp",MODE_PRIVATE).toString();
-        Toast.makeText(Activity_utama.this,"Data "+shared,Toast.LENGTH_LONG).show();
+            Toast.makeText(Activity_utama.this,"Data "+shared,Toast.LENGTH_LONG).show();
         if(getSharedPreferences("CacheApp",MODE_PRIVATE).getString("pref","").isEmpty()){
-        Toast.makeText(Activity_utama.this,"Cache Kosong",Toast.LENGTH_LONG).show();
+            Toast.makeText(Activity_utama.this,"Cache Kosong",Toast.LENGTH_LONG).show();
         }
         else{
             startActivity(new Intent(Activity_utama.this,Layout2.class));
